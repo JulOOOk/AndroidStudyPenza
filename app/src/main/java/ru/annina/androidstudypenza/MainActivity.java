@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent =new Intent(Intent.ACTION_VIEW, Uri.parse("https://facebook.com"));
                 startActivity(intent);
-                Log.d("Экран Авторизации", "Нажатие на кнопку facebook");
+                Log.d("Экран Авторизация", "Нажатие на кнопку facebook");
             }
         });
 
